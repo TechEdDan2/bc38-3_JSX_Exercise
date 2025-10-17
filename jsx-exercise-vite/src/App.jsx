@@ -6,6 +6,7 @@ import NamedComponent from './components/NamedComponent.jsx'
 import './App.css'
 import Tweet from './components/Tweet.jsx'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,11 +28,12 @@ function App() {
       <NamedComponent name="TechEdDan2" />
 
       {/* ------ PART 2 ------- */}
-      <Tweet username="TechEdDan" message="Hello World! This is my first tweet!" />
-      <Tweet username="RobotsRule" message="Beep Beep Boop, this is my first tweet!" />
-      <Tweet username="MonstersAreCooler" message="Rawwwr! This is my first tweet!" />
+      <Tweet username="TechEdDan" message="Hello World! This is my first tweet!" date={new Date().toDateString()} />
+      <Tweet username="RobotsRule" message="Beep Beep Boop, this is my first tweet!" date={new Date().toDateString()} />
+      <Tweet username="MonstersAreCooler" message="Rawwwr! This is my first tweet!" date={new Date().toDateString()} />
 
       { /* ------ PART 3 ------- */}
+
 
 
     </>
