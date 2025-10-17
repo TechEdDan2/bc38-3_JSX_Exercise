@@ -1,11 +1,17 @@
 # React + Vite
 
 - [Overview](#overview)
+- [React Compiler](#react-compiler)
+- [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
+- [Installation](#installation)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 ## Overview
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is practicing using JSX. It is messy, but the focus was on building components. It uses the Vite template, which provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -19,6 +25,35 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone
+2. cd jsx-exercise-vite
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```  
+
+## Features
+- Component-based architecture
+- JSX syntax practice
+- Vite for fast development
+- ESLint for code quality
+
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- JSX
+- ESLint
+- CSS
 
 ----
 
